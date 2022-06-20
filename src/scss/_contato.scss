@@ -1,0 +1,12 @@
+#contato {
+    background-color: antiquewhite;
+}
+
+.contact {
+    display: flex;
+
+    &__box {
+        max-width: 900px;
+        padding-right: 4rem;
+    }
+}

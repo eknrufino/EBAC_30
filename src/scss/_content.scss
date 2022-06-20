@@ -1,0 +1,35 @@
+.content {
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem;
+
+    &__imageleft {
+        justify-content: center;
+        display: flex;
+        width: 100%;
+        padding-right: 10rem;
+    }
+
+    &__imageright {
+        justify-content: center;
+        display: flex;
+        width: 100%;
+        padding-left: 10rem;
+    }
+
+    &__title {
+        font-size: 2rem;
+        color: $color-secondary;
+        text-align: center;
+        width: 100%;
+        max-width: 500px;
+    }
+
+    &__desc {
+        color: $font-color-secondary;
+        font-size: $font-size-default;
+        margin-bottom: 3rem;
+        padding: 0 1rem;
+        text-align: left;
+    }
+}
